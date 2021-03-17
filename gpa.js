@@ -374,7 +374,7 @@ let sem5 = [{
     },
 
     {
-        name: "Energy Engineering",  /////// BACKLOG //////
+        name: "Energy Engineering", /////// BACKLOG //////
         Credits: 3,
         Grade: "D",
         CreditPoints: 12,
@@ -396,8 +396,7 @@ console.log(`Semester 5 grade is : ${sem5Grade} GPA`)
 
 ///// SEM 6 ////////
 
-let sem6 = [
-    {
+let sem6 = [{
         name: "Chemical Engg Equipment Design",
         Credits: 2,
         Grade: "B+",
@@ -433,7 +432,7 @@ let sem6 = [
     },
 
     {
-        name: "Modern Separation Process",  ////// BACKLOG ////
+        name: "Modern Separation Process", ////// BACKLOG ////
         Credits: 3,
         Grade: "D",
         CreditPoints: 12,
@@ -462,8 +461,7 @@ console.log(`Semester 6 grade is : ${sem6Grade} GPA`)
 
 ///// SEM 7 ////////
 
-let sem7 = [
-    {
+let sem7 = [{
         name: "Chemical Technology Lab",
         Credits: 2,
         Grade: "B",
@@ -529,8 +527,7 @@ console.log(`Semester 7 grade is : ${sem7Grade} GPA`)
 
 ///// SEM 8 ////////
 
-let sem8 = [
-    {
+let sem8 = [{
         name: "Entrepneurship and Business Plan",
         Credits: 1,
         Grade: "C",
@@ -550,8 +547,8 @@ let sem8Total = myFilter(sem8);
 let sem8Grade = roundOff(grade, totalCreditPoints);
 console.log(`Semester 8 grade is : ${sem8Grade} GPA`)
 
-let currentCGPA = (sem1Grade + sem2Grade + sem3Grade + sem4Grade + sem5Grade + sem6Grade + sem7Grade + sem8Grade)/8;
+let currentCGPA = (sem1Grade + sem2Grade + sem3Grade + sem4Grade + sem5Grade + sem6Grade + sem7Grade + sem8Grade) / 8;
 
 console.log(`Current CGPA is: ${currentCGPA}`);
 
-console.log("Final CGPA after completion will be 59.98 CGPA which is equivalent to 59.98%");    //For Non Collegiate students BIT Mesra only awards C grade if a student passes his examination even if he scores fully in his paper.
+console.log("Final CGPA after completion will be 59.98 CGPA which is equivalent to 59.98%"); //For Non Collegiate students BIT Mesra only awards C grade if a student passes his examination even if he scores fully in his paper.
